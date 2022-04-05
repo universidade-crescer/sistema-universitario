@@ -8,4 +8,5 @@ Ativida em grupo da Let's Code
 - Enzo Goulart
 - Hannah Freitas
 - Kayllane Gomes
+- Paula Fagundes
 - Rejane Elisa
