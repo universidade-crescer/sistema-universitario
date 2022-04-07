@@ -1,6 +1,6 @@
 # SISTEMA UNIVERSITARIO
 
-Ativida em grupo da Let's Code
+Atividade em grupo da Let's Code
 
 ## ALUNOS:
 
@@ -8,4 +8,5 @@ Ativida em grupo da Let's Code
 - Enzo Goulart
 - Hannah Freitas
 - Kayllane Gomes
+- Paula Fagundes
 - Rejane Elisa
