@@ -2,6 +2,7 @@ package com.sistema.universitario.controller;
 
 import com.sistema.universitario.models.User;
 import com.sistema.universitario.repositories.UserRepository;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,6 +23,7 @@ public class UserController {
     }
 
     @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
     public User save(@RequestBody User usuarios) {
         return this.userRepository.save(usuarios);
     }
