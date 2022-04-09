@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name="\"User\"", uniqueConstraints = {
-        @UniqueConstraint(columnNames = "ID"),
+        @UniqueConstraint(columnNames = "ID_USER"),
         @UniqueConstraint(columnNames = "EMAIL"),
         @UniqueConstraint(columnNames = "PASSWORD")
 })
@@ -16,7 +16,7 @@ import java.util.Objects;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
+    @Column(name = "ID_USER")
     private Integer id;
     @Column(nullable = false, name = "EMAIL")
     private String email;
