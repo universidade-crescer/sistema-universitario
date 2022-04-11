@@ -23,4 +23,4 @@ O objetivo deste projeto é a construção de um sistema para universidade. Cont
 
 Modelagem original do projeto para Sistema Universitário onde adequamos ao MVP (Mínimo Produto Viável) para nossa primeira entrega ao cliente focando na gestão de turmas
 
-<img src = "./universitario/universitario/assets/DER BD.png"  width="350" height="300"/>
+<img src = "./universitario/universitario/assets/BD UNIVERSIDADE CRESCER.png"  width="350" height="300"/>
