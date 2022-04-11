@@ -11,10 +11,9 @@ import java.util.List;
 public class AlunoController {
 
     private final AlunoRepository alunoRepository;
-
-    public AlunoController (AlunoRepository alunoRepository){
+    public AlunoController(AlunoRepository alunoRepository) {
         this.alunoRepository = alunoRepository;
-    }
+         }
 
     @GetMapping
     public List<Aluno> getAll(){

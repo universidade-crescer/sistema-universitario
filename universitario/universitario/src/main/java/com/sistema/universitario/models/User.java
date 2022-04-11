@@ -1,71 +1,30 @@
 package com.sistema.universitario.models;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.Objects;
 
-
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
-@Table(name="\"User\"", uniqueConstraints = {
-        @UniqueConstraint(columnNames = "ID_USER"),
-        @UniqueConstraint(columnNames = "EMAIL"),
-        @UniqueConstraint(columnNames = "PASSWORD")
-})
-
-
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID_USER")
-    private Integer id;
-    @Column(nullable = false, name = "EMAIL")
+    private long id;
+
+    @Column(name = "email")
     private String email;
-    @Column(nullable = false, name = "PASSWORD")
+
+    @Column(name = "password")
     private String password;
 
-    public User(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
 
-    public User(){
-        super();
-    }
 
-    public Integer getId() {
-        return id;
-    }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof User)) return false;
-        User user = (User) o;
-        return getId().equals(user.getId());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId());
-    }
 }
