@@ -19,4 +19,4 @@ O objetivo deste projeto é a construção de um sistema para universidade. Cont
 
 ## MODELAGEM:
 
-<img src = "./universitario/assets/Modelagem BD Sistema Universitário.png">
+<img src = "./universitario/universitario/assets/Modelagem BD Sistema Universitário.png">
