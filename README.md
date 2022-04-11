@@ -19,6 +19,11 @@ O objetivo deste projeto é a construção de um sistema para universidade. Cont
 
 ## MODELAGEM:
 
+
+<img src = "./universitario/universitario/assets/modelagem endpoints.png"  width="350" height="300"/>
+
+A primeira modelagem foi para definir a estrutura do projeto e os endpoints
+
 <img src = "./universitario/universitario/assets/Modelagem BD Sistema Universitário.png"  width="350" height="300"/>
 
 Modelagem original do projeto para Sistema Universitário onde adequamos ao MVP (Mínimo Produto Viável) para nossa primeira entrega ao cliente focando na gestão de turmas
