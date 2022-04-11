@@ -2,13 +2,13 @@
 
 Atividade em grupo da Let's Code realizade pelo grupo amarelo.
 
-## 💻 Sobre o projeto 
+## 💻 Sobre o projeto: 
 
 O objetivo deste projeto é a construção de um sistema para universidade. Contendo cadastro de alunos e professores, pare ter auxílio as suas disciplinas e turmas, e ter uma organização com um diário de classe.
 
 
 
-## ALUNOS:
+## 👨‍💻 Alunos:
 
 - [Anicky Oliveira](https://www.linkedin.com/in/anicky-oliveira-250a75120/)
 - [Enzo Goulart](https://www.linkedin.com/in/enzo-costa-58414620a/)
@@ -17,7 +17,7 @@ O objetivo deste projeto é a construção de um sistema para universidade. Cont
 - [Paula Fagundes](https://www.linkedin.com/in/paula-fagundes-669a211a3/)
 - [Rejane Elisa](https://www.linkedin.com/in/rejane-elisa-ims-9063b055/)
 
-## MODELAGEM:
+## 🛠️ Modelagem:
 
 
 <img src = "./universitario/universitario/assets/modelagem endpoints.png"  width="350" height="300"/>
