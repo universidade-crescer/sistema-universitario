@@ -10,12 +10,12 @@ O objetivo deste projeto é a construção de um sistema para universidade. Cont
 
 ## ALUNOS:
 
-- Anicky Oliveira
-- Enzo Goulart
-- Hannah Freitas
-- Kayllane Gomes
-- Paula Fagundes
-- Rejane Elisa
+- [Anicky Oliveira](https://www.linkedin.com/in/anicky-oliveira-250a75120/)
+- [Enzo Goulart](https://www.linkedin.com/in/enzo-costa-58414620a/)
+- [Hannah Freitas](https://www.linkedin.com/in/hannahcfreitas/)
+- [Kayllane Gomes](https://www.linkedin.com/in/kayllane-gomes/)
+- [Paula Fagundes](https://www.linkedin.com/in/paula-fagundes-669a211a3/)
+- [Rejane Elisa](https://www.linkedin.com/in/rejane-elisa-ims-9063b055/)
 
 ## MODELAGEM:
 
@@ -59,3 +59,11 @@ Modelagem original do projeto para Sistema Universitário onde adequamos ao MVP 
 | GET          | `/turma`                | Retorna todas as turmas              |
 | POST         | `/turma`                | Cria/cadastra uma nova turma         |
 | DELETE       | `/turma/{id}`           | Deleta uma turma                     |
+
+
+## 🚧 Melhorias para o futuro (Em construção):
+
+* Terminar toda a modelagem do projeto.
+* Adicionar mais tabelas ao banco de dados.
+* Implementar o front-end na aplicação.
+
