@@ -16,3 +16,7 @@ O objetivo deste projeto é a construção de um sistema para universidade. Cont
 - Kayllane Gomes
 - Paula Fagundes
 - Rejane Elisa
+
+## MODELAGEM:
+
+<img src = "./assets/Modelagem BD Sistema Universitário.png>
