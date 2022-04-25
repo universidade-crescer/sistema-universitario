@@ -11,44 +11,37 @@ import javax.persistence.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+
 @Entity
-@Table(name = "alunos")
+@Table(name = "Aluno")
 public class Aluno {
+
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private long id;
 
-    @ManyToOne(fetch = FetchType.EAGER, optional = false)
-    @JoinColumn (name = "user_id")
+    @OneToOne
+    @JoinColumn(name = "User_Id", nullable = false)
     private User user;
 
-    @Column (name = "nome")
+    @Column (name = "NOME")
     private String nome;
 
-    @Column (name = "cpf", unique = true)
+    @Column (name = "CPF", unique = true)
     private String cpf;
 
-    @Column (name = "rua")
+    @Column (name = "RUA")
     private String rua;
 
-    @Column (name = "num")
+    @Column (name = "NUMERO")
     private String num;
 
-    @Column (name = "bairro")
+    @Column (name = "BAIRRO")
     private String bairro;
 
-    @Column (name = "cidade")
+    @Column (name = "CIDADE")
     private String cidade;
 
-    @Column (name = "cep")
+    @Column (name = "CEP")
     private String cep;
-
-    @JsonProperty("user_id")
-    private void unpackNested(Long user_id) {
-        this.user = new User();
-        user.setId(user_id);
-    }
-
-
-
 }
